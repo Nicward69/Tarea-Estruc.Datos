@@ -33,10 +33,12 @@ class Matriz{
         }
     }
     public void promedioMatriz(double [][] temp){
+        double promedio = 0, divisor = 0;
+        double resultado = 0;
         
-        for (int fila = 0; fila < temp.length; fila++){
-            //Columnas
-            for (int col = 0; col < temp[fila].length; col++){
+        for (int fila = 0; fila < temp.length; fila++){// col
+            
+            for (int col = 0; col < temp[fila].length; col++){ //filas
                 System.out.print(temp[fila][col] + ", ");
             }
             System.out.println();
