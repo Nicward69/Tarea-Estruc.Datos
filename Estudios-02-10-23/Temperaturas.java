@@ -4,7 +4,15 @@ public class DemoMatriz{
                              { -38.7, -18.3, -16.2 } };
         Matriz ObjMatriz = new Matriz();
         ObjMatriz.imprimirMatriz(temperatures);
-        System.out.println(temperatures[0][0]); 
+        System.out.println(temperatures[0][0]);
+        System.out.println(" el promedio es: " + promedioMatriz([][] temp));
+
+        if (temperatures.length == temperatures[0].length) {
+            System.out.println("los elementos de la diagonal principal son: " + ObjMatriz.diagonalPrincipal(temperatures));
+
+            System.out.println("El vector de la diagonla principal es: " + ObjMatriz.vectorDiagonalPrincipal(temératurea¿s));
+        } 
+        
     }
 }
 
@@ -42,7 +50,31 @@ class Matriz{
                 System.out.print(temp[fila][col] + ", ");
             }
             System.out.println();
+            resultado = promedio / divisor
         }
     }
+    
+    public String diagonalPrincipal (double [][] m){
+    String diagPrinc = "";
+
+    // A nivel de toda la matriz
+    for (int fila = 0; fila < m.length; fila++){ //filas
+        //recorrer cada fila
+
+        for (int col = 0; col < m[fila].length; col++){//columnas
+            //recorrer todos los elementos de cada fila
+            if (filas == col){
+                /*diagPrinc = diagPrinc + m[fila][col] + ", " */
+            }
+
+        }
+        //Recorrer cada fila
+    }
+    diagPrinc = diagPrinc.substring(0, diagPrinc.length()-1);
+
+    return diagPrinc;
+
+
+}
 
 }

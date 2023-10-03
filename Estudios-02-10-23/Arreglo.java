@@ -16,3 +16,17 @@ public void imprimirMatriz (double [][] temp){
 //por valor(Tipo primitivo) - copia
 //por referencia (objeto - arrays)
 //--> Ref. o direccion de memoria
+
+public double promedioMatriz(double [][] m){
+    //A nivel de toda la matriz
+    double suma = 0;
+    for (int fila = 0; fila < m.length; fila++){
+        //columans
+        for (int col = 0; cola < m[fila].length; col++){
+            //Recorrer todos los elementos de cada fila
+            suma+= m[fila][col;]
+        }
+        //recorrer cada fila
+    }
+    return suma / numElementos
+}
