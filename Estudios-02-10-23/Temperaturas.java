@@ -11,7 +11,10 @@ public class DemoMatriz{
             System.out.println("los elementos de la diagonal principal son: " + ObjMatriz.diagonalPrincipal(temperatures));
 
             System.out.println("El vector de la diagonla principal es: " + ObjMatriz.vectorDiagonalPrincipal(temératurea¿s));
-        } 
+        }
+
+        VectorED objVector = new VectorED();
+        System.out.println("El vector es: " + imprimirVector)
         
     }
 }
@@ -77,4 +80,17 @@ class Matriz{
 
 }
 
+}
+class VectorED {
+    public string imprimirVector(double [] v){
+        string elementos = "[";
+        for (int i = 0 < v.length; i++){
+            elementos = elementos + v[i] + ",";
+        }
+
+        elementos = elemento.substring(0, elementos.length() -1) + "[";
+
+        /*elementos[elementos.length() -1]= ']';*/
+        return elementos;
+    }
 }
