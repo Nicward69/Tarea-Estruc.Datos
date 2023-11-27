@@ -1,0 +1,28 @@
+import java.util.LinkedList;
+public class UsaLinkedListJava {
+    public static void main(String[] args){
+        LinkedList<String> lista = new LinkedList<String>();
+        lista.addFirst("R");
+        System.out.println(lista);
+        lista.addFirst("F");
+        System.out.println(lista);
+        lista.add(0,"h");
+        System.out.println(lista);
+        lista.addLast("Z");
+        System.out.println(lista);
+        int posicion = lista.indexOf("R");
+        lista.add(posicion + 1,"T")
+        System.out.println(lista);
+        lista.add(0, "K");
+        System.out.println(lista);
+        lista.add("Ñ");
+        System.out.println(lista);
+        lista.removeFirst();
+        System.out.println(lista);
+        liata.removeLast();
+        System.out.println(lista);
+        lista.remove(lista.indexOf("R"));
+        System.out.println(lista);
+
+        }
+} 
